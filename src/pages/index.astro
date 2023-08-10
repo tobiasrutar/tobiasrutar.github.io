@@ -2,9 +2,26 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Home">
-	<main class="p-8 flex flex-col gap-2">
-		<h1 class="text-3xl font-bold">Tobias Walter Rutar</h1>
-		<p class="text-gray-500">CS Student @ Graz University Of Technology</p>
-	</main>
+<Layout title="twr - Home">
+  <div class="flex justify-center">
+    <div class="flex w-[800px] flex-col gap-6 p-10">
+      <h1 class="text-center text-5xl font-extrabold uppercase">
+        Tobias Walter Rutar
+      </h1>
+      <div
+        class="flex justify-center gap-8 border-b border-t border-black py-0.5"
+      >
+        <a href="https://github.com/tobiasrutar" target="_blank">GitHub</a>
+        <span>Twitter</span>
+      </div>
+      <p>
+        Hello! This is lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Iure voluptatem voluptatibus alias nesciunt, deleniti, reprehenderit
+        nemo rem in vero, suscipit accusantium quasi doloribus iste eligendi.
+        Reiciendis ullam neque impedit voluptatem?
+      </p>
+      <p>CS Student @ Graz University Of Technology</p>
+      <p><a href="mailto:tobiasrutar@gmail.com">tobiasrutar@gmail.com</a></p>
+    </div>
+  </div>
 </Layout>
